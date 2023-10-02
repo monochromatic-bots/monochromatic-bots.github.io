@@ -9,7 +9,7 @@
           console.log( "!test was typed in chat" );
         }
       }
-      ComfyJS.Init( "MyTwitchChannel" );
+      ComfyJS.Init( "sirpestilencevt" );
     </script>
   </body>
 </html>
