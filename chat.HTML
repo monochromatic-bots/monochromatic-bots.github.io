@@ -1,0 +1,24 @@
+<html lang="en">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/comfy.js@latest/dist/comfy.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitch chat</title>
+</head>
+<body>
+  <script ComfyJS.onChat = (user, message, flags, self, extra) => {
+        console.log(user, message);
+}
+
+ComfyJS.Init("SirPestilenceVT");>
+    
+  </script>
+    <div id="chat">
+        <ul>
+        </ul>
+    </div>
+
+</body>
+</html>
